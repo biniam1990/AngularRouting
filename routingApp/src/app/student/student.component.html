@@ -1,0 +1,12 @@
+<div *ngIf=selected>
+<h1>
+  Student Page
+</h1>
+
+<ul>
+  <li *ngFor="let student of students"><a [routerLink]="['profile',student.id]" (click)="onSelected()"> {{student.name}}</a></li>
+  
+</ul>
+</div>
+
+<router-outlet></router-outlet>

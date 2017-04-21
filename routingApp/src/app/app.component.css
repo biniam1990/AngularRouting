@@ -1,0 +1,15 @@
+
+li{
+    border: 2px solid black;
+    display:inline-block;
+    list-style: none;
+    padding: 0.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    text-align: center;
+}
